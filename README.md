@@ -5,12 +5,15 @@
 
 ## 第一次作业项目描述：
 利用沪深300股东数据，进行股东分析。构建股东能力评分体系、计算股东的超额收益。
+注意top10_holders.csv由于文件体积过大无法直接传入，请联系我：2200017739@stu.pku.edu.cn获取文件，并放入'Assignment-1/data'下。
 
 ### 项目详情：
 1. 下载数据和预处理
 2. 依据公司的描述提取出其所在行业
 3. 对某个股东的投资行业和投资集中度进行展示；分析其行业集中度趋势、投资组合规模等数据
 4. 构建股东能力评分体系，组合增长能力、投资稳定性、集中度、规模等要素打分后加权平均
+
+### 项目主文件: P3.ipynb
 
 ## 第二次作业项目描述：
 阅读论文，利用两层GRU对沪深300财务数据的未来值进行预测，并利用这些预测值预测下一期收益率。
@@ -21,6 +24,8 @@
 3. 使用沪深300公司的财务数据进行训练，预测ROE增量、毛利率、每股收益三个指标；并利用随机森林模型，用测出的指标预测股票的收益率
 4. 结合第一次作业，可以对沪深300中分行业的财务数据进行预测（已成功实现）
 
+
+
 # Financial Data Analysis: Two Major Assignments
 2025.12
 
@@ -28,6 +33,7 @@
 
 ## First Assignment Description:
 Utilize CSI 300 shareholder data to conduct shareholder analysis. Construct a shareholder capability scoring system and calculate shareholders' excess returns.
+Please notice that top10_holders.csv is too large to be uploaded. Please email me: 2200017739@stu.pku.edu.cn to get this file and put it under 'Assignment-1/data'
 
 ### Project Details:
 1. Download data and preprocess
